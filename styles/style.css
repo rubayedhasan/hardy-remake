@@ -32,16 +32,23 @@ body {
   color: rgb(253, 110, 10);
 }
 
-.btn-primary {
+.btn-primary,
+.outline-btn {
   color: #fff;
   padding: 18px 35px;
   font-size: 20px;
   font-weight: 700;
   line-height: 27px;
   border-radius: 5px;
-  border: none;
+  border: 1px solid rgb(253, 110, 10);
   outline: 0;
   background: rgb(253, 110, 10);
+  cursor: pointer;
+}
+
+.outline-btn {
+  color: rgb(253, 110, 10);
+  background: transparent;
 }
 
 /* header section styles  */
@@ -73,4 +80,53 @@ nav ul li a {
   color: rgb(71, 71, 71);
   font-size: 20px;
   line-height: 27px;
+  transition: all 0.4s;
+}
+
+nav ul li a:hover {
+  font-weight: 600;
+}
+
+/* banner section styles  */
+header #banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 48px 35px 0 230px;
+}
+
+#banner .banner-content {
+  max-width: 585px;
+}
+
+#banner .banner-content .semi-title {
+  color: rgb(71, 71, 71);
+  font-size: 45px;
+  font-weight: 600;
+  line-height: 61px;
+  margin-bottom: 18px;
+}
+
+#banner .banner-content .owner-name {
+  color: rgb(24, 24, 24);
+  font-size: 85px;
+  font-weight: 700;
+  line-height: 116px;
+  margin-bottom: 20px;
+}
+
+#banner .banner-content .banner-description {
+  color: rgb(117, 117, 117);
+  font-size: 18px;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+
+#banner .banner-content .banner-btn {
+  display: flex;
+  gap: 30px;
+}
+
+#banner .banner-image img {
+  width: 100%;
 }
