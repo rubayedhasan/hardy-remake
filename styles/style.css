@@ -53,8 +53,14 @@ body {
 
 /* header section styles  */
 header {
-  padding-top: 50px;
+  background-image: url("../assets/images/developer.png"),
+    url("../assets/images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: bottom left, bottom right;
+  background-color: rgb(255, 248, 243);
+  mix-blend-mode: overlay;
   height: 837px;
+  padding-top: 50px;
 }
 
 /* nav section styles  */
