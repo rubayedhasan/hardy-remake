@@ -188,3 +188,32 @@ main > section {
 #about .about-container .self-info-container .info {
   color: rgb(71, 71, 71);
 }
+
+/* achieve-skill section styles  */
+#achieve-skill .skills {
+  display: flex;
+  gap: 24px;
+  margin-top: 20px;
+}
+
+#achieve-skill .skills .skill {
+  width: 267px;
+  height: 377px;
+  padding: 30px 35px;
+  border-radius: 5px;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+  background: rgb(255, 255, 255);
+}
+
+#achieve-skill .skills .skill .skill-title {
+  color: rgb(24, 24, 24);
+  font-style: 20px;
+  font-weight: 700;
+  line-height: 27px;
+  margin: 20px 0;
+}
+#achieve-skill .skills .skill .skill-details {
+  color: rgb(117, 117, 117);
+  font-style: 16px;
+  line-height: 28px;
+}
