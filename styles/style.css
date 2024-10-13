@@ -257,3 +257,7 @@ main > section {
   font-style: 16px;
   line-height: 28px;
 }
+#resume .download-resume {
+  text-align: center;
+  margin-top: 50px;
+}
