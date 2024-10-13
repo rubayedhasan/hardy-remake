@@ -261,3 +261,49 @@ main > section {
   text-align: center;
   margin-top: 50px;
 }
+
+/* footer section styles  */
+footer {
+  margin-top: 113px;
+  padding: 130px 0;
+  background: rgb(255, 248, 243);
+}
+
+footer .footer-content-box {
+  display: flex;
+  gap: 117px;
+}
+
+.footer-content-box .build-network,
+.footer-content-box .newsletter {
+  width: 50%;
+}
+
+.footer-content-box .section-title,
+.footer-content-box .section-description {
+  text-align: left;
+}
+
+.footer-content-box .build-network > .social-menu {
+  display: flex;
+  gap: 30px;
+}
+.newsletter form input[type="text"],
+.newsletter form input[type="email"],
+.newsletter form textarea {
+  display: block;
+  width: 461px;
+  height: 64px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  line-height: 28px;
+  padding: 18px 30px;
+  color: rgb(117, 117, 117);
+  background: rgb(255, 255, 255);
+  margin-bottom: 24px;
+}
+
+.newsletter form textarea {
+  height: 180px;
+}
