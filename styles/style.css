@@ -68,6 +68,13 @@ body {
   margin-bottom: 30px;
 }
 
+.divider {
+  margin: 30px 0;
+  padding: 30px 0;
+  border-top: 1px solid rgb(209, 209, 209);
+  border-bottom: 1px solid rgb(209, 209, 209);
+}
+
 /* header section styles  */
 header {
   background-image: url("../assets/images/developer.png"),
@@ -213,6 +220,39 @@ main > section {
   margin: 20px 0;
 }
 #achieve-skill .skills .skill .skill-details {
+  color: rgb(117, 117, 117);
+  font-style: 16px;
+  line-height: 28px;
+}
+
+/* resume section styles  */
+#resume .resume-container-box {
+  display: flex;
+  gap: 70px;
+  margin-top: 84px;
+}
+
+#resume .resume-container-box .sub-section-title {
+  color: rgb(71, 71, 71);
+  font-style: 30px;
+  font-weight: 700;
+  line-height: 41px;
+  margin-bottom: 30px;
+}
+
+#resume .resume-container-box .course-name {
+  color: rgb(71, 71, 71);
+  font-style: 25px;
+  font-weight: 700;
+  line-height: 34px;
+}
+#resume .resume-container-box .institute-name {
+  color: rgb(117, 117, 117);
+  font-style: 20px;
+  font-weight: 600;
+  line-height: 27px;
+}
+#resume .resume-container-box .course-details {
   color: rgb(117, 117, 117);
   font-style: 16px;
   line-height: 28px;
