@@ -318,6 +318,21 @@ footer .footer-content-box {
     width: 100%;
   }
 
+  /* achieve-skill section style  */
+  #achieve-skill {
+    padding: 0 20px;
+  }
+
+  #achieve-skill .skills {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #achieve-skill .skills .skill {
+    width: 100%;
+    height: auto;
+  }
+
   /* resume section  */
   #resume .resume-container-box {
     flex-direction: column;
@@ -352,6 +367,19 @@ footer .footer-content-box {
 @media screen and (min-width: 576px) and (max-width: 767.98px) {
   .container {
     width: 540px;
+  }
+
+  /* achieve-skill section style  */
+  #achieve-skill {
+    padding: 0 30px;
+  }
+
+  #achieve-skill .skills {
+    flex-direction: column;
+  }
+
+  #achieve-skill .skills .skill {
+    width: 100%;
   }
 
   /* resume section  */
@@ -393,6 +421,15 @@ footer .footer-content-box {
     width: 720px;
   }
 
+  #achieve-skill .skills {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  #achieve-skill .skills .skill {
+    width: 43%;
+  }
+
   /* resume section  */
   #resume .resume-container-box {
     flex-direction: column;
@@ -424,10 +461,22 @@ footer .footer-content-box {
     width: calc(100% - 80px);
   }
 }
+
+/* large device  */
 @media screen and (min-width: 992px) and (max-width: 1199.98px) {
   .container {
     width: 960px;
   }
+
+  #achieve-skill .skills {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  #achieve-skill .skills .skill {
+    width: 43%;
+  }
+
   footer .footer-content-box {
     gap: 80px;
   }
