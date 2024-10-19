@@ -318,6 +318,16 @@ footer .footer-content-box {
     width: 100%;
   }
 
+  /* about section styles  */
+  #about {
+    padding: 50px 30px;
+  }
+
+  #about .about-container .self-info-container {
+    flex-direction: column;
+    gap: 15px;
+  }
+
   /* achieve-skill section style  */
   #achieve-skill {
     padding: 0 20px;
@@ -367,6 +377,16 @@ footer .footer-content-box {
 @media screen and (min-width: 576px) and (max-width: 767.98px) {
   .container {
     width: 540px;
+  }
+
+  /* about section styles  */
+  #about {
+    padding: 80px 50px;
+  }
+
+  #about .about-container .self-info-container {
+    flex-direction: column;
+    gap: 20px;
   }
 
   /* achieve-skill section style  */
@@ -419,6 +439,21 @@ footer .footer-content-box {
 @media screen and (min-width: 768px) and (max-width: 991.98px) {
   .container {
     width: 720px;
+  }
+
+  /* about section styles  */
+  /* about section styles  */
+  #about {
+    padding: 100px 130px;
+  }
+
+  #about .about-container .self-info-container {
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  #about .about-container .self-info-container .info-block {
+    width: 45%;
   }
 
   #achieve-skill .skills {
